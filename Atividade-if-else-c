@@ -1,0 +1,16 @@
+var valo_um = prompt ("DIGITE VALOR UM!:")
+ alert ( valo_um)
+ var valor_dois = prompt ("DIGITE VALOR DOIS!:")
+ alert (valor_dois)
+ var valor_tres = prompt ("DIGITE VALOR TRES!:")
+ alert (valor_tres)
+ 
+ if (valo_um > valor_dois && valor_tres){
+   alert ("MAIOR VALOR E UM!")
+ }
+ if (valor_dois > valo_um && valor_tres){
+  alert ("MAIOR VALOR E DOIS!")
+}
+if (valor_tres > valo_um && valor_dois){
+  alert ("MAIOR VALOR E TRES!")
+}
